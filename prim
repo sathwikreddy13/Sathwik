@@ -34,3 +34,22 @@ if __name__ == "__main__":
         row = list(map(int, input(f"Row {i + 1}: ").split()))
         graph.append(row)
     primMST(graph)
+
+
+#Sample input
+Enter the number of vertices: 5
+Enter the adjacency matrix row by row:
+Row 1: 0 2 0 6 0
+Row 2: 2 0 3 8 5
+Row 3: 0 3 0 0 7
+Row 4: 6 8 0 0 9
+Row 5: 0 5 7 9 0
+
+#sample output:
+Edge    Weight
+0 - 1   2
+1 - 2   3
+0 - 3   6
+1 - 4   5
+
+
