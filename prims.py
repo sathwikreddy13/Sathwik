@@ -1,5 +1,6 @@
 import sys
 
+
 def printMST(parent, graph):
     print("Edge \tWeight")
     for i in range(1, len(parent)):
